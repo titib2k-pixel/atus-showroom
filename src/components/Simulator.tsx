@@ -1,6 +1,6 @@
 ﻿import { useEffect, useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowLeft, Sparkles, MessageCircle, CheckCircle2, ShoppingBag, ThumbsUp, QrCode, CreditCard, Clock, MapPin } from "lucide-react";
+import { ArrowLeft, Sparkles, MessageCircle, CheckCircle2, ShoppingBag, QrCode, Clock } from "lucide-react";
 
 type MsgType = "user" | "atus" | "qrcode" | "payment" | "delivery";
 
